@@ -1,0 +1,53 @@
+* {
+  /* უნივერსალური სელექტორი */
+}
+:root {
+  /* html, ანუ root ელემენტის სელექტორი */
+}
+
+header {
+  background-color: aqua;
+}
+
+header:hover {
+  background-color: white;
+}
+
+nav {
+  background-color: brown;
+}
+
+p {
+  background-color: blanchedalmond;
+}
+
+.title {
+  color: darkblue;
+}
+
+#list {
+  border: 5px solid black;
+}
+
+#list > li {
+  background-color: gray;
+}
+
+input:focus {
+  background-color: red;
+}
+
+li:first-child {
+  color: white;
+}
+
+li:last-child {
+  color: blue;
+}
+
+nav,
+main,
+header,
+footer {
+  border: 1px solid black;
+}
