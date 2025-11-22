@@ -1,0 +1,30 @@
+:root {
+    font-size: 20px;
+}
+
+div.px {
+  height: 200px;
+  width: 500px;
+  background-color: red;
+}
+
+div.viewport {
+  width: 80vw;
+  height: 50vh;
+  background-color: aquamarine;
+}
+
+div.percent {
+  height: 50%;
+  width: 50%;
+  background-color: green;
+}
+
+p {
+  font-size: 30px;
+}
+
+span {
+  font-size: 2em;
+}
+
