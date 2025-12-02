@@ -4,11 +4,11 @@
 }
 
 .box {
-  width: 200px;
+  /* width: 200px;
   height: 200px;
   color: white;
   margin: 120px;
-  background-color: black;
+  background-color: black; */
   /* transition-property: width;
   transition-duration: 2s; */
   /* transition: width 2s, height 2s, background-color 2s, transform 2s,
@@ -39,7 +39,7 @@
   background-color: burlywood;
   transform: rotate(360deg);
   border-radius: 50%; */
-  animation-play-state: paused;
+  /* animation-play-state: paused; */
 }
 
 @keyframes firstAnimation {
@@ -53,7 +53,7 @@
     width: 400px;
     transform: rotate(180deg);
   } */
-  0% {
+  /* 0% {
     width: 200px;
   }
   25% {
@@ -64,5 +64,91 @@
   }
   100% {
     width: 1000px;
+  } */
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  color: white;
+  margin: 120px;
+  background-color: rgb(85, 101, 171);
+  animation: bounce 1.2s 2;
+}
+
+/* @keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-35px);
+  }
+  60% {
+    transform: translateY(0);
+  }
+  80% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+} */
+
+/* p {
+  width: 0px;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 3px solid black;
+  animation: typing 2.8s steps(8) infinite, blink 0.6s infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 120px;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+} */
+/* 
+div.spinner {
+  width: 30px;
+  height: 30px;
+  border: 4px solid #ccc;
+  border-top-color: dodgerblue;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+} */
+
+div.pulse {
+  width: 80px;
+  height: 80px;
+  background-color: red;
+  transform: rotate(45deg);
+  animation: pulse 0.8s infinite;
+  margin: 120px
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
   }
 }
